@@ -7,7 +7,8 @@ The main-program is in the file `timerizer.pl` which calls `parser/regexp.pl` to
 parse the input Maude-file and extract the geometrical information recorded in that
 config file, and then it uses `time/timing.pl` to derive the temporal relationships
 between the different events and use that to generate all possible relative time orders
-between the time of migration and faulting.
+between the time of migration and faulting. Finally, it writes the new configurations
+containing the different temporal orders into the output file.
 
 ## Use
 
