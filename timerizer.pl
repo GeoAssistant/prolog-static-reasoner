@@ -1,5 +1,11 @@
+#!/usr/bin/env swipl
+
 :- [timing/timing] .
 :- [parser/regexp] .
+:- initialization(main, main).
+
+main([File, Out]) :-
+    add_relative_times(File, Out) .
 
 add_relative_times(File, Out) :-
     read_file_to_string(File, Str, []),
