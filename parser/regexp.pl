@@ -31,7 +31,7 @@ insert_at_end_of_eq(Str, Content, NewStr) :-
 
 
 get_faults(Str, FaultMaps) :-
-    re_compile("<\s*([0-9]+)\s*:\s*Fault.+InContactWith:\s+(.+),\s+", R, [dotall(true),multiline(true),ungreedy(true)]),
+    re_compile("<\s*([0-9]+)\s*:\s*Fault[^>]+InContactWith:\s+(.+)\s+[>]", R, [dotall(true),multiline(true),ungreedy(true)]),
     re_foldl(add_elem, R, Str, [], FaultMaps, []) .
 
 get_cuts(CStr, Cuts) :-
