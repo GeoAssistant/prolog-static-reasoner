@@ -19,7 +19,7 @@ swipl -s timerizer.pl <input> <output>
 where `<input>` is the input Maude configuration file and `<output>` is the file to which
 output should be written.
 
-To test the file, one can use the example Maude configuration in `tests/geo-init.maude` and e.g.
+To test the program, one can use the example Maude configuration in `tests/geo-init.maude` and e.g.
 run
 ```
 swipl -s timerizer.pl tests/geo-init.maude relative-time.maude
