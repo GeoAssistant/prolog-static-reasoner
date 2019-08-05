@@ -21,5 +21,5 @@ output should be written.
 To test the file, one can use the example Maude configuration in `tests/geo-init.maude` and e.g.
 run
 ```
-swipl -s timerizer.pl tests/geo-init.maude out.maude
+swipl -s timerizer.pl tests/geo-init.maude relative-time.maude
 ```
