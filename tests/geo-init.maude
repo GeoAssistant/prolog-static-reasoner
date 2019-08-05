@@ -1,0 +1,81 @@
+mod GEO-INIT is   
+  protecting GEO-DEFINITION .
+  protecting GEO-FUNCS .
+  protecting GEO-PETROLEUM .  
+  protecting NAT .
+
+
+       
+  op caseStudy1-0 : -> Configuration [ctor] . 
+  eq caseStudy1-0
+  = < GeoUnit | Ocnt: 17 > 
+   < Hydrocarbon | Ocnt: 0 > 
+   < Fault | Ocnt: 4 > 
+   < Pathways | Pathways: nil, Ocnt: 0 > 
+
+   < 0 : Fault | FType: normalfault, Filling: unknown, InContactWith: (4,1,dippingAway,hangingWall,0) :: ((5,2,dippingAway,hangingWall,7) :: ((6,3,dippingAway,hangingWall,8) ::
+                                                                          ((16,16,dippingAway,hangingWall,9) :: ((0,0,dippingTowards,footWall,4) :: 
+		                                                          ((7,1,dippingTowards,footWall,5) :: ((8,2,dippingTowards,footWall,6) :: ((9,3,dippingTowards,footWall,16) :: nil))))))), Time: timeOf(Fault,0) >
+
+   < 1 : Fault | FType: normalfault, Filling: unknown, InContactWith: (7,1,dippingAway,hangingWall,0) :: ((7,1,dippingAway,hangingWall,10) :: ((8,2,dippingAway,hangingWall,10) :: ((8,2,dippingAway,hangingWall,11) :: ((9,3,dippingAway,hangingWall,11) ::
+				                                          ((9,3,dippingAway,hangingWall,12) :: ((16,16,dippingAway,hangingWall,12) :: ((0,0,dippingTowards,footWall,7) :: 
+			                                                  ((10,1,dippingTowards,footWall,7) :: ((10,1,dippingTowards,footWall,8) :: ((11,2,dippingTowards,footWall,8) ::
+				                                          ((11,2,dippingTowards,footWall,9) :: ((12,3,dippingTowards,footWall,9) :: ((12,3,dippingTowards,footWall,16) :: nil))))))))))))), Time: timeOf(Fault,1) >
+
+   < 2 : Fault | FType: normalfault, Filling: unknown, InContactWith: (10,1,dippingAway,hangingWall,0) :: ((11,2,dippingAway,hangingWall,13) :: ((12,3,dippingAway,hangingWall,14) ::
+				                                          ((16,16,dippingAway,hangingWall,15) :: ((0,0,dippingTowards,footWall,10) ::
+			                                                  ((13,1,dippingTowards,footWall,11) ::
+				                                          ((14,2,dippingTowards,footWall,12) :: ((15,3,dippingTowards,footWall,16) :: nil))))))), Time: timeOf(Fault,2) >
+
+   < 3 : Fault | FType: normalfault, Filling: unknown, InContactWith:     (13,1,dippingAway,hangingWall,null) :: ((14,2,dippingAway,hangingWall,null) :: ((15,3,dippingAway,hangingWall,null) :: nil)), Time: timeOf(Fault,3) >	
+
+	
+   < 0 : GeoUnit  | GeoUnit: 0, Type: shale, Permeability: unknown, Porosity: unknown, SubmarineFan: unknown, Folded: false, DepositedIn: terrestrial, Time: timeOf(GeoUnit,0), Role: noRole, 
+		 InContactWith: 13 :: (10 :: (7 :: (4 :: nil))), KerogenType: "none", Hydrocarbon: null >
+	
+   < 4 : GeoUnit  | GeoUnit: 1, Type: shale, Permeability: unknown, Porosity: unknown, SubmarineFan: unknown, Folded: false, DepositedIn: terrestrial, Time: timeOf(GeoUnit,1), Role: noRole, 
+		 InContactWith: 5 :: nil, KerogenType: "3", Hydrocarbon: null > 
+   < 5 : GeoUnit  | GeoUnit: 2, Type: sandstone, Permeability: unknown, Porosity: unknown, SubmarineFan: unknown, Folded: false, DepositedIn: terrestrial, Time: timeOf(GeoUnit,2), Role: noRole, 
+		 InContactWith: 4 :: (6 :: nil), KerogenType: "none", Hydrocarbon: null > 
+   < 6 : GeoUnit  | GeoUnit: 3, Type: shale, Permeability: unknown, Porosity: unknown, SubmarineFan: unknown, Folded: false, DepositedIn: terrestrial, Time: timeOf(GeoUnit,3), Role: noRole, 
+		 InContactWith: 5 :: nil, KerogenType: "none", Hydrocarbon: null >
+	  
+   < 7 : GeoUnit  | GeoUnit: 1, Type: shale, Permeability: unknown, Porosity: unknown, SubmarineFan: unknown, Folded: false, DepositedIn: terrestrial, Time: timeOf(GeoUnit,1), Role: noRole, 
+		 InContactWith: 8 :: nil, KerogenType: "none", Hydrocarbon: null > 
+   < 8 : GeoUnit  | GeoUnit: 2, Type: sandstone, Permeability: unknown, Porosity: unknown, SubmarineFan: unknown, Folded: false, DepositedIn: terrestrial, Time: timeOf(GeoUnit,2), Role: noRole, 
+		 InContactWith: 7 :: (9 :: nil), KerogenType: "none", Hydrocarbon: null > 
+   < 9 : GeoUnit  | GeoUnit: 3, Type: shale, Permeability: unknown, Porosity: unknown, SubmarineFan: unknown, Folded: false, DepositedIn: terrestrial, Time: timeOf(GeoUnit,3), Role: noRole, 
+		 InContactWith: 8 :: nil, KerogenType: "none", Hydrocarbon: null >
+
+   < 10 : GeoUnit | GeoUnit: 1, Type: shale, Permeability: unknown, Porosity: unknown, SubmarineFan: unknown, Folded: false, DepositedIn: terrestrial, Time: timeOf(GeoUnit,1), Role: noRole, 
+		 InContactWith: 11 :: nil, KerogenType: "none", Hydrocarbon: null > 
+   < 11 : GeoUnit | GeoUnit: 2, Type: sandstone, Permeability: unknown, Porosity: unknown, SubmarineFan: unknown, Folded: false, DepositedIn: terrestrial, Time: timeOf(GeoUnit,2), Role: noRole,
+		 InContactWith: 10 :: (12 :: nil), KerogenType: "none", Hydrocarbon: null > 
+   < 12 : GeoUnit | GeoUnit: 3, Type: shale, Permeability: unknown, Porosity: unknown, SubmarineFan: unknown, Folded: false, DepositedIn: terrestrial, Time: timeOf(GeoUnit,3), Role: noRole,
+		 InContactWith: 11 :: nil, KerogenType: "none", Hydrocarbon: null >
+	
+   < 13 : GeoUnit | GeoUnit: 1, Type: shale, Permeability: unknown, Porosity: unknown, SubmarineFan: unknown, Folded: false, DepositedIn: terrestrial, Time: timeOf(GeoUnit,1), Role: noRole, 
+		 InContactWith: 14 :: nil, KerogenType: "none", Hydrocarbon: null > 
+   < 14 : GeoUnit | GeoUnit: 2, Type: sandstone, Permeability: unknown, Porosity: unknown, SubmarineFan: unknown, Folded: false, DepositedIn: terrestrial, Time: timeOf(GeoUnit,2), Role: noRole, 
+		 InContactWith: 13 :: (15 :: nil), KerogenType: "none", Hydrocarbon: null > 
+   < 15 : GeoUnit | GeoUnit: 3, Type: shale, Permeability: unknown, Porosity: unknown, SubmarineFan: unknown, Folded: false, DepositedIn: terrestrial, Time: timeOf(GeoUnit,3), Role: noRole,
+		 InContactWith: 14 :: nil, KerogenType: "none", Hydrocarbon: null >	
+
+   < 16 : GeoUnit | GeoUnit: 16, Type: shale, Permeability: unknown, Porosity: unknown, SubmarineFan: unknown, Folded: false, DepositedIn: terrestrial, Time: timeOf(GeoUnit,16), Role: noRole,
+		 InContactWith: 15 :: (12 :: (9 :: (6 :: nil))), KerogenType: "none", Hydrocarbon: null >  
+
+   depositionalContact((3,16) :: ((2,3) :: ((1,2) :: ((0,1) :: nil))))		    	
+
+   --- default values ---
+   trapformation(5,none,nil,undefined) trapformation(8,none,nil,undefined) trapformation(11,none,nil,undefined) trapformation(14,none,nil,undefined)
+   accumulation(5,false) accumulation(8,false) accumulation(11,false) accumulation(14,false) 
+   history(emptyStr) .
+
+    
+    
+
+        
+endm
+
+
+    
