@@ -33,12 +33,12 @@ mod GEO-INIT is
    < 3 : Fault | FType: normalfault, Filling: unknown, InContactWith: (13,1,dippingAway,hangingWall,0) :: ((14,2,dippingAway,hangingWall,0) :: ((15,3,dippingAway,hangingWall,0) ::
 		                                                          ((17,16,dippingAway,hangingWall,0) :: ((17,16,dippingAway,hangingWall,18) :: ((19,19,dippingAway,hangingWall,18) ::
 			                                                  ((19,19,dippingAway,hangingWall,19) :: ((0,0,dippingAway,hangingWall,0) :: ((0,0,dippingAway,hangingWall,13) ::
-				                                          ((0,0,dippingAway,hangingWall,14) :: ((0,0,dippingAway,hangingWall,15) :: (0,0,dippingAway,hangingWall,17) ::
-				                                          ((0,0,dippingAway,hangingWall,18) :: nil))))))))))) >	
+				                                          ((0,0,dippingAway,hangingWall,14) :: ((0,0,dippingAway,hangingWall,15) :: ((0,0,dippingAway,hangingWall,17) ::
+				                                          ((0,0,dippingAway,hangingWall,18) :: nil)))))))))))) >	
 
 	
    < 0 : GeoUnit  | GeoUnit: 0, Type: shale, Permeability: unknown, Porosity: unknown, SubmarineFan: basinPlain, Folded: false, DepositedIn: marine, Role: noRole, 
-		 InContactWith: 18 :: (17 : (13 :: (10 :: (7 :: (4 :: nil))))), KerogenType: "none", Hydrocarbon: null >
+		 InContactWith: 18 :: (17 :: (13 :: (10 :: (7 :: (4 :: nil))))), KerogenType: "none", Hydrocarbon: null >
 	
    < 4 : GeoUnit  | GeoUnit: 1, Type: shale, Permeability: unknown, Porosity: unknown, SubmarineFan: basinPlain, Folded: false, DepositedIn: marine, Role: noRole, 
 		 InContactWith: 5 :: (0 :: nil), KerogenType: "2", Hydrocarbon: null > 
