@@ -28,7 +28,7 @@ mod GEO-INIT is
    < 2 : Fault | FType: normalfault, Filling: unknown, InContactWith: (10,1,dippingAway,hangingWall,0) :: ((11,2,dippingAway,hangingWall,13) :: ((12,3,dippingAway,hangingWall,14) ::
 				                                          ((17,16,dippingAway,hangingWall,15) :: ((0,0,dippingTowards,footWall,10) :: ((13,1,dippingTowards,footWall,11) ::
 			                                                  ((14,2,dippingTowards,footWall,12) :: ((15,3,dippingTowards,footWall,17) :: ((17,16,dippingAway,hangingWall,17) ::
-				                                          ((0,0,dippingTowards,footWall,0) ::nil))))))))) >
+				                                          ((0,0,dippingTowards,footWall,0) :: nil))))))))) >
 
    < 3 : Fault | FType: normalfault, Filling: unknown, InContactWith: (13,1,dippingAway,hangingWall,0) :: ((14,2,dippingAway,hangingWall,0) :: ((15,3,dippingAway,hangingWall,0) ::
 		                                                          ((17,16,dippingAway,hangingWall,0) :: ((17,16,dippingAway,hangingWall,18) :: ((19,19,dippingAway,hangingWall,18) ::
