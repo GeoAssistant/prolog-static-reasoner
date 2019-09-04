@@ -37,42 +37,42 @@ mod GEO-INIT is
 				                                          ((0,0,dippingAway,hangingWall,18) :: nil)))))))))))) >	
 
 	
-   < 0 : GeoUnit  | GeoUnit: 0, Type: shale, Permeability: unknown, Porosity: unknown, SubmarineFan: basinPlain, Folded: false, DepositedIn: marine, Role: noRole, 
+   < 0 : GeoUnit  | GeoUnit: 0, Type: shale, Permeability: unknown, Porosity: unknown, SubmarineFan: unknown, Folded: false, DepositedIn: marine, Role: noRole, 
 		 InContactWith: 18 :: (17 :: (13 :: (10 :: (7 :: (4 :: nil))))), KerogenType: "none", Hydrocarbon: null >
 	
-   < 4 : GeoUnit  | GeoUnit: 1, Type: shale, Permeability: unknown, Porosity: unknown, SubmarineFan: basinPlain, Folded: false, DepositedIn: marine, Role: noRole, 
+   < 4 : GeoUnit  | GeoUnit: 1, Type: shale, Permeability: unknown, Porosity: unknown, SubmarineFan: unknown, Folded: false, DepositedIn: marine, Role: noRole, 
 		 InContactWith: 5 :: (0 :: nil), KerogenType: "2", Hydrocarbon: null > 
    < 5 : GeoUnit  | GeoUnit: 2, Type: sandstone, Permeability: unknown, Porosity: unknown, SubmarineFan: unknown, Folded: false, DepositedIn: marine, Role: noRole, 
 		 InContactWith: 6 :: (4 :: nil), KerogenType: "none", Hydrocarbon: null > 
-   < 6 : GeoUnit  | GeoUnit: 3, Type: shale, Permeability: unknown, Porosity: unknown, SubmarineFan: basinPlain, Folded: false, DepositedIn: marine, Role: noRole, 
+   < 6 : GeoUnit  | GeoUnit: 3, Type: shale, Permeability: unknown, Porosity: unknown, SubmarineFan: unknown, Folded: false, DepositedIn: marine, Role: noRole, 
 		 InContactWith: 17 :: (5 :: nil), KerogenType: "none", Hydrocarbon: null >
 	  
-   < 7 : GeoUnit  | GeoUnit: 1, Type: shale, Permeability: unknown, Porosity: unknown, SubmarineFan: basinPlain, Folded: false, DepositedIn: marine, Role: noRole, 
+   < 7 : GeoUnit  | GeoUnit: 1, Type: shale, Permeability: unknown, Porosity: unknown, SubmarineFan: unknown, Folded: false, DepositedIn: marine, Role: noRole, 
 		 InContactWith: 8 :: (0 :: nil), KerogenType: "none", Hydrocarbon: null > 
    < 8 : GeoUnit  | GeoUnit: 2, Type: sandstone, Permeability: unknown, Porosity: unknown, SubmarineFan: unknown, Folded: false, DepositedIn: marine, Role: noRole, 
 		 InContactWith: 9 :: (7 :: nil), KerogenType: "none", Hydrocarbon: null > 
-   < 9 : GeoUnit  | GeoUnit: 3, Type: shale, Permeability: unknown, Porosity: unknown, SubmarineFan: basinPlain, Folded: false, DepositedIn: marine, Role: noRole, 
+   < 9 : GeoUnit  | GeoUnit: 3, Type: shale, Permeability: unknown, Porosity: unknown, SubmarineFan: unknown, Folded: false, DepositedIn: marine, Role: noRole, 
 		 InContactWith: 17 :: (8 :: nil), KerogenType: "none", Hydrocarbon: null >
 
-   < 10 : GeoUnit | GeoUnit: 1, Type: shale, Permeability: unknown, Porosity: unknown, SubmarineFan: basinPlain, Folded: false, DepositedIn: marine, Role: noRole, 
+   < 10 : GeoUnit | GeoUnit: 1, Type: shale, Permeability: unknown, Porosity: unknown, SubmarineFan: unknown, Folded: false, DepositedIn: marine, Role: noRole, 
 		 InContactWith: 11 :: (0 :: nil), KerogenType: "none", Hydrocarbon: null > 
    < 11 : GeoUnit | GeoUnit: 2, Type: sandstone, Permeability: unknown, Porosity: unknown, SubmarineFan: unknown, Folded: false, DepositedIn: marine, Role: noRole,
 		 InContactWith: 12 :: (10 :: nil), KerogenType: "none", Hydrocarbon: null > 
-   < 12 : GeoUnit | GeoUnit: 3, Type: shale, Permeability: unknown, Porosity: unknown, SubmarineFan: basinPlain, Folded: false, DepositedIn: marine, Role: noRole,
+   < 12 : GeoUnit | GeoUnit: 3, Type: shale, Permeability: unknown, Porosity: unknown, SubmarineFan: unknown, Folded: false, DepositedIn: marine, Role: noRole,
 		 InContactWith: 17 :: (11 :: nil), KerogenType: "none", Hydrocarbon: null >
 	
-   < 13 : GeoUnit | GeoUnit: 1, Type: shale, Permeability: unknown, Porosity: unknown, SubmarineFan: basinPlain, Folded: false, DepositedIn: marine, Role: noRole, 
+   < 13 : GeoUnit | GeoUnit: 1, Type: shale, Permeability: unknown, Porosity: unknown, SubmarineFan: unknown, Folded: false, DepositedIn: marine, Role: noRole, 
 		 InContactWith: 14 :: (0 :: nil), KerogenType: "none", Hydrocarbon: null > 
    < 14 : GeoUnit | GeoUnit: 2, Type: sandstone, Permeability: unknown, Porosity: unknown, SubmarineFan: unknown, Folded: false, DepositedIn: marine,  Role: noRole, 
 		 InContactWith: 13 :: (15 :: nil), KerogenType: "none", Hydrocarbon: null > 
-   < 15 : GeoUnit | GeoUnit: 3, Type: shale, Permeability: unknown, Porosity: unknown, SubmarineFan: basinPlain, Folded: false, DepositedIn: marine, Role: noRole,
+   < 15 : GeoUnit | GeoUnit: 3, Type: shale, Permeability: unknown, Porosity: unknown, SubmarineFan: unknown, Folded: false, DepositedIn: marine, Role: noRole,
 		 InContactWith: 17 :: (14 :: nil), KerogenType: "none", Hydrocarbon: null >	
 
-   < 17 : GeoUnit | GeoUnit: 16, Type: shale, Permeability: unknown, Porosity: unknown, SubmarineFan: basinPlain, Folded: false, DepositedIn: marine, Role: noRole,
+   < 17 : GeoUnit | GeoUnit: 16, Type: shale, Permeability: unknown, Porosity: unknown, SubmarineFan: unknown, Folded: false, DepositedIn: marine, Role: noRole,
 		 InContactWith: 19 :: (18 :: (15 :: (12 :: (9 :: (6 :: (0 :: nil)))))), KerogenType: "none", Hydrocarbon: null >  
-   < 18 : GeoUnit | GeoUnit: 16, Type: shale, Permeability: unknown, Porosity: unknown, SubmarineFan: basinPlain, Folded: false, DepositedIn: marine, Role: noRole,
+   < 18 : GeoUnit | GeoUnit: 16, Type: shale, Permeability: unknown, Porosity: unknown, SubmarineFan: unknown, Folded: false, DepositedIn: marine, Role: noRole,
 		 InContactWith: 19 :: (17 :: (0 :: nil)), KerogenType: "none", Hydrocarbon: null >
-   < 19 : GeoUnit | GeoUnit: 19, Type: shale, Permeability: unknown, Porosity: unknown, SubmarineFan: basinPlain, Folded: false, DepositedIn: marine, Role: noRole,
+   < 19 : GeoUnit | GeoUnit: 19, Type: shale, Permeability: unknown, Porosity: unknown, SubmarineFan: unknown, Folded: false, DepositedIn: marine, Role: noRole,
 		 InContactWith: 18 :: (17 :: nil), KerogenType: "none", Hydrocarbon: null >	
 	
    depositionalContact((16,19) :: ((3,16) :: ((2,3) :: ((1,2) :: ((0,1) :: nil)))))		    	
